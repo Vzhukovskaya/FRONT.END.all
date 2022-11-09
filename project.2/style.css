@@ -1,0 +1,96 @@
+* { margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+}
+header {
+    height: 60px;
+    background-color: rgb(44, 110, 120);
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+h1 {
+    text-align: center;
+}
+main {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(215, 194, 141);
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 5 10 30px 1px rgba(211, 197, 197, 0.5);
+
+}
+p {
+    font-size: 30px;
+    font-family: 'Caveat', cursive;}
+    div {
+    width: calc(50% - 20px);
+    height: 300px;
+    background-color: rgb(34, 98, 100);
+    margin: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px salmon;
+    border-radius: 8ex;
+    transition: 1s;
+    
+   }
+   div:hover {
+    transform: scale(1.1);
+   }
+   .item-1 {
+    background-image: url(./imeges/img.1.jpg);
+    background-size: contain;
+    background-position: center;
+   }
+
+    .item-2 {
+        background-image: url(./imeges/img.2.jpeg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .item-3 { 
+        background-image: url(./imeges/img.3.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .item-4 {
+        background-image: url(./imeges/img.4.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .item-5 {
+        background-image: url(./imeges/img.5.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .item-6 {
+        background-image: url(./imeges/img.6.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .item-7 {
+        background-image: url(./imeges/img.7.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .item-8 {
+        background-image: url(./imeges/img.8.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }

@@ -1,0 +1,28 @@
+h1 {
+
+    color: rgb(10, 45, 80);
+    text-align: center;
+
+}
+p {
+
+    color: rgb(6, 4, 44);
+    font-size: 24px;
+    text-align: center;
+
+}
+img {
+
+    width: 500px;
+    display: block;
+    margin: auto;
+
+}
+article {
+
+    background-color: rgb(107, 137, 165);
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+
+}
