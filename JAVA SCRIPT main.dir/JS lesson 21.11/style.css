@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+}
+.car {
+    background-color: rgb(219, 195, 139);
+    width: 40%;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+}
+p {
+    margin: 10px;
+    font-size: 20px;
+}
+.title {
+    color: rgb(97, 119, 81);
+}
+.car-year {
+    font-size: 18px;
+    text-align: center;
+}
+.car-price {
+    font-size: 20px;
+    text-align: center;
+}
