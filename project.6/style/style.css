@@ -7,6 +7,8 @@
     width: 70%;
     margin: auto;
 }
+
+/* Header */
 .header-wrapper {
     display: flex;
     justify-content: space-between;
@@ -15,6 +17,9 @@
 .header-icons:not(:last-child) {
     margin-right: 55px;
 }
+/* Heder END */
+
+/* Intro block */
 .intro {
     background-color: #4FBFA5;
     padding: 25px 0 60px;
@@ -64,4 +69,78 @@
     border: none;
     outline: none;
     color: white;
+}
+/* (Актуальные Спецпредложения) */
+
+.intro-end {
+    padding: 120px 0;
+}
+
+.intro-order-title {
+    font-size: 48px;
+    text-align: center;
+    font-style: italic;
+    color: #00868A;
+    padding: 0 0 60px;
+}
+
+.intro-order-wrapper {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-order-item {
+    width: 25%;
+    cursor: pointer;
+    margin: 0 10px;
+    background-color: #00868A;
+    color: white;
+    font-style: italic;
+}
+
+.intro-order-item-image {
+    width: 100%;
+}
+
+.intro-order-item-title-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.new {
+    position: absolute;
+    margin: 25px;
+    padding: 10px;
+    background-color: #00868A;
+}
+
+.footer-p {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto 20px;
+    padding: 40px;
+    border-radius: 20px;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 1),
+        0px 0px 10px rgba(255, 255, 255, 1),
+        0px 0px 15px rgba(255, 255, 255, 1),
+        0px 0px 20px rgba(0, 134, 138, 1),
+        0px 0px 30px rgba(0, 134, 138, 1),
+        0px 0px 40px rgba(0, 134, 138, 1),
+        0px 0px 55px rgba(0, 134, 138, 1),
+        0px 0px 75px rgba(0, 134, 138, 1);
+}
+
+
+.navigation-icons-end {
+    margin: 120px 0;
+}
+.border-line {
+    width: 80%;
+    margin: 300px 0;
+    
+    border: 1px solid #C4C4C4;
 }
